@@ -5,26 +5,26 @@ import Results from './Results.jsx';
 const Quiz = () => {
 
     const questionBank = [
-        {
-            question: "What is the capital of France?",
-            options: ["Paris", "London", "Berlin", "Madrid"],
-            answer: "Paris"
-        },
-        {
-            question: "What is the largest planet in our solar system?",
-            options: ["Earth", "Mars", "Jupiter", "Saturn"],
-            answer: "Jupiter"
-        },
-        {
-            question: "Who wrote 'To Kill a Mockingbird'?",
-            options: ["Harper Lee", "Mark Twain", "F. Scott Fitzgerald", "Ernest Hemingway"],
-            answer: "Harper Lee"
-        },
-        {
-            question: "What does Jsx Stand for ?",
-            options: ["JavaScript", "Java", "JavaScript XML", "Java XML"],
-            answer: "JavaScript XML"
-        }
+            {
+              question: "What is the capital of Israel?",
+              options: ["Tel Aviv", "Haifa", "Jerusalem", "Eilat"],
+              answer: "Jerusalem"
+            },
+            {
+              question: "How many continents are there on Earth?",
+              options: ["5", "6", "7", "8"],
+              answer: "7"
+            },
+            {
+              question: "What is the largest ocean on Earth?",
+              options: ["Atlantic", "Indian", "Arctic", "Pacific"],
+              answer: "Pacific"
+            },
+            {
+              question: "Which planet is known as the Red Planet?",
+              options: ["Earth", "Mars", "Jupiter", "Venus"],
+              answer: "Mars"
+            }
     ]
     const initialAnswers  = [null, null, null, null]
 const [selectedOption, setSelectedOption] = useState(null);

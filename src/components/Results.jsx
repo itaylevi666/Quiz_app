@@ -21,7 +21,8 @@ const Results = ({ userAnswers, questionBank }) => {
       <div>
         <h2>You Finished</h2>
         <p>Your Score: {score} / {questionBank.length}</p>
-        <button className="restart-button" onClick={handleRestart}>Restart Quiz</button>
+            <button className="restart-button" onClick={handleRestart}>Restart Quiz</button>
+            
       </div>
     );
   };

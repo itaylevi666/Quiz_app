@@ -14,7 +14,7 @@ function App() {
       <Quiz />
 
       <div className="footer">
-        <p>© 2025 Itay App</p>
+        <p>© 2025 Itay Levi</p>
         </div>
 
     </div>
